@@ -1,0 +1,161 @@
+/* .about-us-section {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+.about-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.about-image {
+    width: 150px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.about-content {
+    max-width: 600px;
+}
+
+.about-content h2 {
+    font-size: 28px;
+    color: #1b3a69;
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+.steps-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.step {
+    width: 30%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.step h3 {
+    color: #1b3a69;
+    margin-bottom: 10px;
+}
+
+.step p {
+    font-size: 14px;
+    color: #555;
+}
+
+@media (max-width: 768px) {
+    .steps-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+} */
+/* Main about us section */
+.about-us-section {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f7f7f7;
+}
+
+.about-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+.about-image {
+    width: 150px;
+    margin-right: 20px;
+    border-radius: 8px;
+}
+
+.about-content {
+    max-width: 600px;
+}
+
+.about-content h2 {
+    font-size: 28px;
+    color: #1b3a69;
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+}
+
+/* Steps Container */
+.steps-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.step {
+    width: 30%;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out, border-color 0.3s ease-in-out;
+}
+
+.step:hover {
+    border-color: #0078d7;
+    transform: scale(1.05);
+}
+
+.step-icon {
+    font-size: 36px;
+    color: #1b3a69;
+    margin-bottom: 15px;
+}
+
+.step h3 {
+    color: #1b3a69;
+    margin-bottom: 10px;
+}
+
+.step p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Hover effect to add blue border */
+.step:hover {
+    border: 2px solid #0078d7;
+}
+
+@media (max-width: 768px) {
+    .steps-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+}

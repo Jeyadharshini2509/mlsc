@@ -1,0 +1,72 @@
+/* HeroSection.css */
+.hero-section {
+    background: linear-gradient(to bottom, #1e3a8a, #2563eb); /* Blue gradient background */
+    color: white;
+    padding: 4rem 2rem;
+    border-radius: 16px;
+    text-align: center;
+    position: relative;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    position: relative;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+    margin: 1rem 0;
+  }
+  
+  .hero-tagline {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    border-bottom: 2px solid white;
+    display: inline-block;
+    padding-bottom: 0.5rem;
+  }
+  
+  .hero-description {
+    font-size: 1rem;
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.6;
+  }
+  
+  .corner-icon {
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    opacity: 0.6;
+    /* Replace with your actual icon URL */
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  
+  .top-left {
+    top: 10px;
+    left: 10px;
+  }
+  
+  .top-right {
+    top: 10px;
+    right: 10px;
+  }
+  
+  .bottom-left {
+    bottom: 10px;
+    left: 10px;
+  }
+  
+  .bottom-right {
+    bottom: 10px;
+    right: 10px;
+  }
+  
